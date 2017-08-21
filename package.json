@@ -18,7 +18,7 @@
     "gulp": "gulp",
     "lint": "gulp tslint",
     "show-unit-test-coverage": "gulp show-unittest-coverage-report",
-    "start": "electron .",    
+    "start": "electron .",
     "test": "gulp enforce-code-coverage check-security",
     "transpile": "gulp transpile",
     "validate": "npm ls"
@@ -31,6 +31,7 @@
     "@types/chai": "^3.4.34",
     "@types/mocha": "^2.2.39",
     "@types/node": "^7.0.5",
+    "@types/request": "^2.0.1",
     "@types/sinon": "^1.16.35",
     "chai": "^3.5.0",
     "del": "^2.2.2",
@@ -55,6 +56,7 @@
   },
   "dependencies": {
     "electron": "^1.7.5",
-    "electron-main-notification": "^1.0.1"
+    "electron-main-notification": "^1.0.1",
+    "request": "^2.81.0"
   }
 }

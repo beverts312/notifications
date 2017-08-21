@@ -6,8 +6,8 @@ const config = {
             coinmarketcap: {
                 uris: {
                     base: 'https://api.coinmarketcap.com/v1/%s',
-                    getCurrency: '/ticker/%s',
-                    getCurrencies: '/ticker'
+                    getCurrency: 'ticker/%s',
+                    getCurrencies: 'ticker'
                 }
             }
         }
