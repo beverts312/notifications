@@ -1,5 +1,5 @@
 import CategoryProvider = require('../../interfaces/category-provider');
-import Notification = require('../../models/notification');
+import Notification = require('../../notification');
 
 /**
  * For financial related alerts

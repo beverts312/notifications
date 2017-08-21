@@ -4,7 +4,7 @@
 import Chai = require('chai');
 import Sinon = require('sinon');
 
-import Notification = require('../../src/models/notification');
+import Notification = require('../src/notification');
 
 const assert = Chai.assert;
 
